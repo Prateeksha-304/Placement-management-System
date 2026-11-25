@@ -1,0 +1,36 @@
+drive_id,company_id,name,sal_lpa,role_for,is_internship
+DRV001,CMP001,Toshiba Campus Drive 2026-27,10.5,Software / Embedded Engineer,False
+DRV002,CMP002,Visteon Automotive Tech Drive,7.0,Software Engineer,False
+DRV003,CMP003,Juniper Networks Internship Drive,4.8,Software Engineering Intern,True
+DRV004,CMP004,Informatica Data Engineering Drive,11.92,Associate Software Engineer,False
+DRV005,CMP005,Applied Materials 2027 Campus Drive,17.66,Software / Core Engineer,False
+DRV006,CMP006,Infosys HackWithInfy 2027,9.5,Specialist Programmer,False
+DRV007,CMP006,Infosys Campus Recruitment (SE),3.6,System Engineer,False
+DRV008,CMP006,Infosys Winternship 2027,3.0,Software Intern,True
+DRV009,CMP007,Dassault Systemes R&D Drive,7.89,R&D Software Engineer,False
+DRV010,CMP008,DTICI Graduate Engineer Drive,10.0,Graduate Engineer Trainee,False
+DRV011,CMP009,Tismo Embedded Drive,8.0,Embedded Systems Engineer,False
+DRV012,CMP010,Cognizant GenC Campus Drive,4.0,GenC Developer,False
+DRV013,CMP011,Amagi Cloud Media Drive,18.17,Cloud Software Engineer,False
+DRV014,CMP012,Accenture Innovation Campus Drive,4.5,Associate Software Engineer,False
+DRV015,CMP013,AWS Cloud & SDE Campus Drive,26.35,Cloud Support / SDE-1,False
+DRV016,CMP014,Medicodio Healthcare AI Internship,3.0,AI/ML Intern,True
+DRV017,CMP015,Sony India R&D Campus Drive,7.25,R&D Software Engineer,False
+DRV018,CMP016,Azentio FinTech Campus Drive,10.0,Associate Software Engineer,False
+DRV019,CMP017,Algomox AIOps Drive,5.0,AIOps Engineer,False
+DRV020,CMP018,Magna Automotive Internship,1.8,Automotive Engineering Intern,True
+DRV021,CMP019,Zeliot 2027 Internship + FTE (SDE),7.5,Software Engineer - Intern,True
+DRV022,CMP019,Zeliot 2027 Internship + FTE (SDET),5.5,"Software Engineer, Test - Intern",True
+DRV023,CMP020,Sonata Software Digital Internship,2.4,Digital Engineer Intern,True
+DRV024,CMP021,Velankani Telecom Software Drive,5.0,Software Developer,False
+DRV025,CMP022,Indusvision AI Vision Drive,4.0,Computer Vision Engineer,False
+DRV026,CMP023,Tech Mahindra Campus Drive,3.25,Associate Software Engineer,False
+DRV027,CMP024,Capgemini Exceller Campus Drive,7.5,Senior Analyst,False
+DRV028,CMP025,Lam Research 2027 Campus Drive,16.5,Engineer - Software / Hardware,False
+DRV029,CMP026,LTIMindtree Campus Recruitment 2027,6.5,Graduate Engineer Trainee,False
+DRV030,CMP027,Bosch Core Engineering Drive,7.0,Embedded Software Engineer,False
+DRV031,CMP028,MBRDI Automotive R&D Drive,10.0,Graduate Engineer Trainee - R&D,False
+DRV032,CMP029,TCS Digital & Prime Campus Drive,7.0,TCS Digital Engineer,False
+DRV033,CMP030,Wipro Elite NTH Campus Drive,3.5,Project Engineer,False
+DRV034,CMP031,Deloitte Consulting Campus Drive,7.6,Business Technology Analyst,False
+DRV035,CMP032,Flipkart Grid Campus Hire,16.5,SDE-1,False

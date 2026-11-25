@@ -1,0 +1,33 @@
+company_id,name,email,roles_offered,type
+CMP001,Toshiba,campus@toshiba-tsip.com,"Software Engineer, Embedded Engineer",Core
+CMP002,Visteon,india.campus@visteon.com,Software Engineer - Automotive,Core
+CMP003,Juniper Networks,university-hiring@juniper.net,Software Engineering Intern,Product
+CMP004,Informatica,campusindia@informatica.com,Associate Software Engineer,Product
+CMP005,Applied Materials,university_relations@amat.com,"Software Engineer, Systems Engineer",Core
+CMP006,Infosys,hackwithinfy@infosys.com,"Specialist Programmer, System Engineer, Intern",Service
+CMP007,Dassault Systemes,campus.india@3ds.com,R&D Software Engineer,Product
+CMP008,Daimler Truck Innovation Center India (DTICI),dtici-campus@daimlertruck.com,Graduate Engineer Trainee,Core
+CMP009,Tismo Technology Solutions,hr@tismotech.com,Embedded Systems Engineer,Core
+CMP010,Cognizant,campus@cognizant.com,"GenC, GenC Next",Service
+CMP011,Amagi,careers@amagi.com,Cloud Software Engineer,Product
+CMP012,Accenture,campus.india@accenture.com,Associate Software Engineer,Service
+CMP013,AWS,university-hiring@amazon.in,"Cloud Support Associate, SDE-1",Product
+CMP014,Medicodio,hr@medicodio.com,AI/ML Intern,Product
+CMP015,Sony,sard-campus@sony.com,R&D Software Engineer,Product
+CMP016,Azentio,campus@azentio.com,Associate Software Engineer,Product
+CMP017,Algomox Pvt ltd,hr@algomox.com,AIOps Engineer,Product
+CMP018,Magna,india.campus@magna.com,Automotive Engineering Intern,Core
+CMP019,Zeliot,hr@zeliot.in,"Software Engineer - Intern, Software Engineer, Test - Intern",Core
+CMP020,Sonata Software,campus@sonata-software.com,Digital Engineer Intern,Service
+CMP021,Velankani Software Pvt Ltd.,hr@velankani.com,Software Developer,Core
+CMP022,Indusvision,careers@indusvision.ai,Computer Vision Engineer,Product
+CMP023,Tech Mahindra,campus@techmahindra.com,Associate Software Engineer,Service
+CMP024,Capgemini,campus.in@capgemini.com,"Senior Analyst, Analyst",Service
+CMP025,Lam Research,campus.india@lamresearch.com,Engineer - Software / Hardware,Core
+CMP026,LTIMindtree,campus@ltimindtree.com,Graduate Engineer Trainee,Service
+CMP027,Bosch,hr.india@bosch.com,Embedded Software Engineer,Core
+CMP028,Mercedes-Benz R&D,mbrdi-campus@mercedes-benz.com,Graduate Engineer Trainee - R&D,Core
+CMP029,TCS,campus@tcs.com,"TCS Digital, TCS Prime",Service
+CMP030,Wipro,campus.connect@wipro.com,Project Engineer,Service
+CMP031,Deloitte,campusindia@deloitte.com,Business Technology Analyst,Consulting
+CMP032,Flipkart,campus@flipkart.com,SDE-1,Product

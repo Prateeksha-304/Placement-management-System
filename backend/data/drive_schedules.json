@@ -1,0 +1,22 @@
+{
+  "DRV050": {
+    "deadline": "2027-01-30",
+    "arrival_date": "2027-02-15"
+  },
+  "DRV049": {
+    "deadline": "2026-11-08",
+    "arrival_date": "2026-11-13"
+  },
+  "DRV051": {
+    "deadline": "2027-01-30",
+    "arrival_date": "2027-02-15"
+  },
+  "DRV054": {
+    "deadline": "2026-11-22",
+    "arrival_date": "2026-11-25"
+  },
+  "DRV056": {
+    "deadline": "2026-11-12",
+    "arrival_date": "2026-11-20"
+  }
+}

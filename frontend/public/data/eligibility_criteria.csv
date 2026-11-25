@@ -1,0 +1,36 @@
+elg_id,drive_id,sem,allowed_branch,min_cgpa,max_backlog,other
+ELG001,DRV001,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE",7.5,0,"10th/12th >= 70%, Core Offer"
+ELG002,DRV002,7,"CSE,CSE(AI),ECE,EEE",7.0,0,"10th/12th >= 65%, Core Offer"
+ELG003,DRV003,7,"CSE,CSE(AI),ECE",7.5,0,"Stipend 40k/month (0.4 LPA/mo), 6-month internship"
+ELG004,DRV004,7,"CSE,CSE(AI)",7.5,0,"10th/12th >= 70%, Product Offer"
+ELG005,DRV005,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE,Mech",8.0,0,"10th >= 70%, 12th/Diploma >= 70%, Core Offer, Unplaced + Infosys HackWithInfy only"
+ELG006,DRV006,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE,Mech",7.0,0,"10th/12th >= 65%, Coding competition pathway"
+ELG007,DRV007,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE,Mech",6.0,1,"10th/12th >= 60%, Service Offer"
+ELG008,DRV008,7,"CSE,CSE(AI),ECE",6.5,0,"Stipend 25k/month, Internship"
+ELG009,DRV009,7,"CSE,CSE(AI),ECE,Mech",7.0,0,"10th/12th >= 65%, Product Offer"
+ELG010,DRV010,7,"CSE,CSE(AI),ECE,EEE,Mech",7.5,0,"10th/12th >= 70%, Core Offer"
+ELG011,DRV011,7,"ECE,EE(VD&T),EEE",7.0,0,"10th/12th >= 65%, Core Offer"
+ELG012,DRV012,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE,Mech",6.0,1,"10th/12th >= 60%, Service Offer"
+ELG013,DRV013,7,"CSE,CSE(AI)",8.0,0,"10th/12th >= 75%, Product Offer"
+ELG014,DRV014,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE,Mech",6.0,1,"Open to all branches, Service Offer"
+ELG015,DRV015,7,"CSE,CSE(AI),ECE",8.0,0,"10th/12th >= 75%, Super Dream Offer"
+ELG016,DRV016,7,"CSE,CSE(AI)",7.0,0,6-month internship with PPO opportunity
+ELG017,DRV017,7,"CSE,CSE(AI),ECE",7.2,0,10th/12th >= 65%
+ELG018,DRV018,7,"CSE,CSE(AI),ECE,EEE",7.0,0,10th/12th >= 65%
+ELG019,DRV019,7,"CSE,CSE(AI)",6.5,0,Python & ML knowledge preferred
+ELG020,DRV020,7,"ECE,EEE,Mech",6.5,0,"Stipend 15k/month, Core Internship"
+ELG021,DRV021,7,"CSE,CSE(AI)",8.0,0,"No 10th/12th restriction, 6-mo intern (20k/mo) + 7.5 LPA FTE, Core Offer, Unplaced + Infosys/LTM"
+ELG022,DRV022,7,"CSE,CSE(AI)",8.0,0,"No 10th/12th restriction, 6-mo intern (20k/mo) + 5.5 LPA FTE, Core Offer, Unplaced + Infosys/LTM"
+ELG023,DRV023,7,"CSE,CSE(AI),ECE,EEE",6.5,0,6-month internship
+ELG024,DRV024,7,"CSE,ECE,EE(VD&T)",6.5,0,C/C++ and Networking focus
+ELG025,DRV025,7,"CSE,CSE(AI),ECE",6.5,0,Deep Learning project experience
+ELG026,DRV026,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE,Mech",6.0,1,"10th/12th >= 60%, Service Offer"
+ELG027,DRV027,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE",6.5,0,"10th/12th >= 60%, Service Offer"
+ELG028,DRV028,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE",8.0,0,"10th >= 70%, 12th/Diploma >= 70%, Core Offer, Hard copy project reports required"
+ELG029,DRV029,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE",6.75,0,"10th/12th >= 60%, Service Offer"
+ELG030,DRV030,7,"ECE,EE(VD&T),EEE,Mech",7.0,0,"10th/12th >= 65%, Core Offer"
+ELG031,DRV031,7,"CSE,CSE(AI),ECE,Mech",7.5,0,"10th/12th >= 70%, Core Offer"
+ELG032,DRV032,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE,Mech",6.5,0,"10th/12th >= 60%, Service Offer"
+ELG033,DRV033,7,"CSE,CSE(AI),ECE,EE(VD&T),EEE,Mech",6.0,1,"10th/12th >= 60%, Service Offer"
+ELG034,DRV034,7,"CSE,CSE(AI),ECE,EEE",7.2,0,10th/12th >= 65%
+ELG035,DRV035,7,"CSE,CSE(AI)",8.0,0,"10th/12th >= 70%, Product Offer"

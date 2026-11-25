@@ -1,0 +1,296 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  /* Button Styles */
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-700 text-white hover:bg-primary-800 focus:ring-primary-600 shadow-sm;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-gray-700 border-gray-300 hover:bg-gray-50 focus:ring-primary-600;
+  }
+  
+  .btn-outline {
+    @apply bg-transparent text-primary-700 border-primary-700 hover:bg-primary-50 focus:ring-primary-600;
+  }
+
+  .btn-danger {
+    @apply bg-red-600 text-white hover:bg-red-700 focus:ring-red-500 shadow-sm;
+  }
+
+  /* Form Elements */
+  .input-field {
+    @apply block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary-600 focus:ring-primary-600 sm:text-sm py-2 px-3 border transition-colors;
+  }
+  
+  .label-text {
+    @apply block text-sm font-medium text-white-700 mb-1;
+  }
+
+  /* Card Styles */
+  .card {
+    @apply bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden;
+  }
+  
+  .card-header {
+    @apply px-4 py-4 sm:px-6 border-b border-gray-200 bg-gray-50/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0;
+  }
+  
+  .card-body {
+    @apply p-4 sm:p-6;
+  }
+  
+  .card-footer {
+    @apply px-4 py-3 sm:px-6 border-t border-gray-200 bg-gray-50;
+  }
+  
+  /* Status Badges */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .badge-success {
+    @apply bg-emerald-50 text-emerald-700 border border-emerald-200;
+  }
+  
+  .badge-warning {
+    @apply bg-amber-50 text-amber-700 border border-amber-200;
+  }
+  
+  .badge-danger {
+    @apply bg-red-50 text-red-700 border border-red-200;
+  }
+  
+  .badge-info {
+    @apply bg-blue-50 text-blue-700 border border-blue-200;
+  }
+  
+  .badge-neutral {
+    @apply bg-gray-100 text-gray-700 border border-gray-200;
+  }
+}
+
+/* Safe Area Utils for Mobile */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+
+/* Custom KLE colors */
+.bg-kle-maroon {
+  background-color: #7f1d1d;
+}
+
+.text-kle-gold {
+  color: #c9a84c;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Staggered animation delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Red and black dark theme, with a white and red light theme for every role. */
+:root {
+  color-scheme: dark;
+  --kle-red: #c51622;
+  --kle-red-dark: #970e18;
+  --kle-ink: #f5f5f5;
+  --kle-paper: #151515;
+  --kle-page: #0c0c0c;
+  --kle-line: #353535;
+  --kle-muted: #bcbcbc;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --kle-red: #bd1723;
+  --kle-red-dark: #a1101a;
+  --kle-ink: #181818;
+  --kle-paper: #ffffff;
+  --kle-page: #f7f7f7;
+  --kle-line: #e4e4e4;
+  --kle-muted: #626262;
+}
+
+html, body, #root { min-height: 100%; }
+body { background: var(--kle-page); color: var(--kle-ink); transition: background-color 160ms ease, color 160ms ease; }
+::selection { background: #a10f19; color: #fff; }
+
+:root[data-theme="dark"] [class*="bg-white"], :root[data-theme="dark"] [class*="bg-gray-50"], :root[data-theme="dark"] [class*="bg-gray-100"],
+:root[data-theme="dark"] [class*="bg-[#f8f9fa]"],
+:root[data-theme="dark"] [class*="bg-indigo-50"], :root[data-theme="dark"] [class*="bg-blue-50"], :root[data-theme="dark"] [class*="bg-green-50"],
+:root[data-theme="dark"] [class*="bg-emerald-50"], :root[data-theme="dark"] [class*="bg-yellow-50"], :root[data-theme="dark"] [class*="bg-amber-50"],
+:root[data-theme="dark"] [class*="bg-orange-50"], :root[data-theme="dark"] [class*="bg-purple-50"] { background-color: #151515 !important; }
+:root[data-theme="dark"] [class*="bg-indigo-100"], :root[data-theme="dark"] [class*="bg-blue-100"], :root[data-theme="dark"] [class*="bg-green-100"],
+:root[data-theme="dark"] [class*="bg-emerald-100"], :root[data-theme="dark"] [class*="bg-yellow-100"], :root[data-theme="dark"] [class*="bg-amber-100"],
+:root[data-theme="dark"] [class*="bg-orange-100"], :root[data-theme="dark"] [class*="bg-purple-100"] { background-color: #3a1115 !important; }
+:root[data-theme="dark"] [class*="text-gray-900"], :root[data-theme="dark"] [class*="text-gray-800"], :root[data-theme="dark"] [class*="text-gray-700"] { color: #f4f4f4 !important; }
+:root[data-theme="dark"] [class*="text-gray-600"], :root[data-theme="dark"] [class*="text-gray-500"], :root[data-theme="dark"] [class*="text-gray-400"] { color: #bcbcbc !important; }
+:root[data-theme="dark"] [class*="text-indigo-"], :root[data-theme="dark"] [class*="text-blue-"], :root[data-theme="dark"] [class*="text-green-"],
+:root[data-theme="dark"] [class*="text-emerald-"], :root[data-theme="dark"] [class*="text-yellow-"], :root[data-theme="dark"] [class*="text-amber-"],
+:root[data-theme="dark"] [class*="text-orange-"], :root[data-theme="dark"] [class*="text-purple-"] { color: #f06a72 !important; }
+:root[data-theme="dark"] [class~="bg-indigo-600"], :root[data-theme="dark"] [class~="bg-indigo-700"], :root[data-theme="dark"] [class~="bg-blue-600"],
+:root[data-theme="dark"] [class~="bg-green-600"], :root[data-theme="dark"] [class~="bg-emerald-600"], :root[data-theme="dark"] [class~="bg-red-600"] { background-color: var(--kle-red) !important; }
+:root[data-theme="dark"] [class*="border-gray-"], :root[data-theme="dark"] [class*="border-indigo-"], :root[data-theme="dark"] [class*="border-blue-"],
+:root[data-theme="dark"] [class*="border-green-"], :root[data-theme="dark"] [class*="border-emerald-"], :root[data-theme="dark"] [class*="border-yellow-"],
+:root[data-theme="dark"] [class*="border-amber-"], :root[data-theme="dark"] [class*="border-orange-"], :root[data-theme="dark"] [class*="border-purple-"] { border-color: #353535 !important; }
+:root[data-theme="dark"] [class*="border-red-"] { border-color: #71131a !important; }
+:root[data-theme="dark"] input:not([type="checkbox"]), :root[data-theme="dark"] select, :root[data-theme="dark"] textarea { background-color: #101010; color: #f5f5f5; border-color: #444; }
+:root[data-theme="dark"] option { background: #101010; color: #f5f5f5; }
+:root[data-theme="dark"] ::placeholder { color: #8a8a8a; }
+
+:root[data-theme="light"] [class~="bg-black"], :root[data-theme="light"] [class~="bg-[#111111]"], :root[data-theme="light"] [class~="bg-[#151515]"],
+:root[data-theme="light"] [class~="bg-[#101010]"], :root[data-theme="light"] [class~="bg-[#0c0c0c]"] { background-color: #ffffff !important; }
+:root[data-theme="light"] [class~="text-white"] { color: #181818 !important; }
+:root[data-theme="light"] [class*="text-gray-900"], :root[data-theme="light"] [class*="text-gray-800"], :root[data-theme="light"] [class*="text-gray-700"] { color: #181818 !important; }
+:root[data-theme="light"] [class*="text-gray-600"], :root[data-theme="light"] [class*="text-gray-500"], :root[data-theme="light"] [class*="text-gray-400"] { color: #626262 !important; }
+:root[data-theme="light"] [class*="text-red-"] { color: #a1101a !important; }
+:root[data-theme="light"] [class*="border-gray-"], :root[data-theme="light"] [class*="border-red-"] { border-color: #e4dada !important; }
+:root[data-theme="light"] input:not([type="checkbox"]), :root[data-theme="light"] select, :root[data-theme="light"] textarea { background-color: #fff; color: #181818; border-color: #d4d4d4; }
+:root[data-theme="light"] option { background: #fff; color: #181818; }
+:root[data-theme="light"] ::placeholder { color: #777; }
+:root[data-theme="light"] nav[aria-label="Main navigation"] { background: #fff !important; color: #181818 !important; border-bottom: 1px solid #e4e4e4; }
+:root[data-theme="light"] nav[aria-label="Main navigation"] a { color: #343434 !important; }
+:root[data-theme="light"] nav[aria-label="Main navigation"] a[aria-current="page"] { background: #fff5f5 !important; color: #a1101a !important; border-color: #bd1723 !important; }
+:root[data-theme="light"] .btn-primary, :root[data-theme="light"] .btn-danger, :root[data-theme="light"] button.bg-red-700, :root[data-theme="light"] button.bg-red-600 { color: #fff !important; }
+:root[data-theme="light"] .btn-primary, :root[data-theme="light"] .btn-danger { background-color: var(--kle-red) !important; }
+/* White text must win over the light-theme utility reset on solid red actions. */
+:root[data-theme="light"] button.btn-primary,
+:root[data-theme="light"] button.btn-danger,
+:root[data-theme="light"] a.btn-primary,
+:root[data-theme="light"] a.btn-danger,
+button.btn-primary,
+button.btn-danger,
+a.btn-primary,
+a.btn-danger { color: #fff !important; }
+.red-surface,
+.red-surface *,
+.red-action { color: #fff !important; }
+.red-action,
+a[class~="bg-primary-600"],
+button[class~="bg-red-600"],
+button[class~="bg-red-700"],
+button[class~="bg-red-800"] { color: #fff !important; }
+:root[data-theme="light"] .red-surface,
+:root[data-theme="light"] .red-surface *,
+:root[data-theme="light"] .red-action { color: #fff !important; }
+.header-avatar {
+  color: #fff !important;
+  background: linear-gradient(145deg, #d21d2b, #970e18);
+  border: 1px solid rgba(255, 255, 255, .72);
+  box-shadow: 0 2px 7px rgba(120, 12, 22, .24), 0 0 0 2px rgba(189, 23, 35, .12);
+  letter-spacing: .02em;
+}
+:root[data-theme="light"] .header-avatar {
+  color: #fff !important;
+  background: linear-gradient(135deg, #e32636 0%, #bd1723 58%, #95111b 100%);
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(149, 17, 27, .28), 0 0 0 2px #f4d7d9;
+}
+
+/* Keep status pills soft and readable in the light theme. Previously every
+   red utility (including bg-red-50/100) was promoted to a solid red surface. */
+:root[data-theme="light"] [class~="bg-red-50"],
+:root[data-theme="light"] [class~="bg-red-100"] { background-color: #fff1f2 !important; }
+:root[data-theme="light"] [class~="text-red-800"],
+:root[data-theme="light"] [class~="text-red-900"] { color: #86121b !important; }
+:root[data-theme="light"] [class~="bg-red-600"],
+:root[data-theme="light"] [class~="bg-red-700"],
+:root[data-theme="light"] [class~="bg-red-800"],
+:root[data-theme="light"] [class~="bg-red-900"] { background-color: var(--kle-red) !important; }
+:root[data-theme="light"] [class~="bg-red-600"][class~="text-white"],
+:root[data-theme="light"] [class~="bg-red-700"][class~="text-white"],
+:root[data-theme="light"] [class~="bg-red-800"][class~="text-white"],
+:root[data-theme="light"] [class~="bg-red-900"][class~="text-white"],
+:root[data-theme="light"] button.bg-red-600,
+:root[data-theme="light"] button.bg-red-700,
+:root[data-theme="light"] button.bg-red-800,
+:root[data-theme="light"] button.bg-red-900 { color: #fff !important; }
+:root[data-theme="light"] [class~="bg-green-50"],
+:root[data-theme="light"] [class~="bg-green-100"],
+:root[data-theme="light"] [class~="bg-emerald-50"],
+:root[data-theme="light"] [class~="bg-emerald-100"] { background-color: #ecfdf5 !important; }
+:root[data-theme="light"] [class~="text-green-800"],
+:root[data-theme="light"] [class~="text-emerald-800"] { color: #065f46 !important; }
+:root[data-theme="light"] .application-stat-rejected {
+  background-color: #bd1723 !important;
+  border-color: #8f1019 !important;
+  box-shadow: 0 0 0 1px #8f1019;
+}
+:root[data-theme="light"] .application-stat-rejected,
+:root[data-theme="light"] .application-stat-rejected p,
+:root[data-theme="light"] .application-stat-rejected [class*="text-"] {
+  color: #fff !important;
+}
+
+/* Shared visual polish for the placement pages. */
+:root[data-theme="light"] body { background: #f6f6f7; color: #171717; }
+:root[data-theme="light"] input::placeholder,
+:root[data-theme="light"] textarea::placeholder { color: #686868; opacity: 1; }
+:root[data-theme="light"] :focus-visible { outline: 2px solid #bd1723; outline-offset: 2px; }
+:root[data-theme="light"] .card,
+:root[data-theme="light"] article.rounded-xl,
+:root[data-theme="light"] section.rounded-xl { border-color: #e5d7d8; }
+:root[data-theme="light"] button:disabled { color: #666 !important; }
+
+@media (max-width: 767px) {
+  body { font-size: 15px; }
+  button, a { -webkit-tap-highlight-color: transparent; }
+  input, select, textarea { font-size: 16px !important; }
+  .card { border-radius: 12px; box-shadow: 0 2px 10px rgba(20, 20, 20, .045); }
+  main { overscroll-behavior-y: contain; }
+}
+
+/* Keep secondary actions neutral while making the primary action unmistakably red. */
+.btn-primary, .btn-danger { background-color: var(--kle-red) !important; color: #fff !important; }
+.btn-primary:hover, .btn-danger:hover { background-color: var(--kle-red-dark); }
+.btn-primary, .btn-danger, .red-action { color: #fff !important; }
+.red-surface, .red-surface * { color: #fff !important; }
+.btn-outline { color: #f06a72 !important; border-color: var(--kle-red) !important; }
+.btn-outline:hover { background-color: #291013; }
+.input-field:focus { --tw-ring-color: var(--kle-red); border-color: var(--kle-red); }
